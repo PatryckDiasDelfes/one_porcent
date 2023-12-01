@@ -2,14 +2,18 @@ export default function Footer() {
     return (
       <>
         <section className="flex justify-around items-center bg-black h-[full] w-[full] text-white text-[1.6vw]">
-            <div>
+            <div className="flex flex-col gap-1">
                 <h1>institucional</h1>
-                <ol>
+                <ol className="text-[1.3vw]">
                     <li>sobre One%</li>
                 </ol>
             </div>
-            <div>
+            <div className="flex flex-col gap-1">
                 <h1>suporte</h1>
+                <ol className="text-[1.3vw]">
+                    <li>email</li>
+                    <li>whatsapp</li>
+                </ol>
             </div>
         </section>
       </>
