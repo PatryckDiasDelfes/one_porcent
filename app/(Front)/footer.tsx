@@ -5,11 +5,11 @@ export default function Footer() {
             <div className="flex flex-col gap-1">
                 <h1>institucional</h1>
                 <ol className="text-[1.3vw]">
-                    <li>sobre One%</li>
+                    <li>about One%</li>
                 </ol>
             </div>
             <div className="flex flex-col gap-1">
-                <h1>suporte</h1>
+                <h1>support</h1>
                 <ol className="text-[1.3vw]">
                     <li>email</li>
                     <li>whatsapp</li>
